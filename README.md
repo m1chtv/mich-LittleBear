@@ -28,7 +28,7 @@ A clean, modern, and offline-ready web app for tracking your daily self-care rou
 To enable Telegram reporting:
 
 1. Create a bot via [@BotFather](https://t.me/BotFather) and get the API token.
-2. Replace the Telegram `fetch` block in `submitDay()` with your `bot_token` and `chat_id`.
+2. Open `mich.js` and Replace the Telegram `fetch` block in `submitDay()` with your `bot_token` and `chat_id`.
 
 ## 🛡 Privacy
 
