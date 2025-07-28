@@ -234,11 +234,11 @@ function submitDay() {
     `✅ *انجام شده‌ها:*\n${doneTasks.length ? doneTasks.join("\n") : "هیچ‌کدام"}\n\n` +
     `❌ *انجام نشده‌ها:*\n${notDoneTasks.length ? notDoneTasks.join("\n") : "هیچ‌کدام"}`;
 
-  fetch("telegram bot token", {
+  fetch("https://api.telegram.org/bot<your_token>/sendMessage", {
     method: "POST",
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      chat_id: admin chat id,
+      chat_id: <your_chat_id>,
       text: message,
       parse_mode: "Markdown"
     })
