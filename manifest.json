@@ -1,0 +1,22 @@
+{
+  "name": "Little Bear",
+  "short_name": "LB",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#a855f7",
+  "description": "روتین‌های روزانه خرس کوچولو 💜",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/zizi-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/zizi-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
