@@ -42,5 +42,5 @@ This app includes a `stale-while-revalidate` Service Worker to allow full offlin
 
 ## 📄 License
 
-MIT — feel free to use, modify, and contribute.
+AGPL-3.0
 
